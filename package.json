@@ -3,5 +3,13 @@
   "packageManager": "yarn@4.6.0",
   "dependencies": {
     "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+
+  "scripts": {
+    "hello": "nodemon hello.js",
+    "dev": "nodemon index.js"
   }
 }
